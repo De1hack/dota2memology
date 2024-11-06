@@ -1,3 +1,8 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+
 .container {
   max-width: 1440px;
   margin-left: auto;
@@ -10,6 +15,7 @@
   flex-direction: column;
   min-height: 100vh;
 }
-/* html {
-  scroll-behavior: smooth;
-} */
+.section {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}

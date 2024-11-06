@@ -1,10 +1,7 @@
-@import url('./header/header.css');
 @import url('./reset/normalize.css');
 @import url('./reset/reset-styles.css');
-@import url('./reset/colors.css');
+@import url('./colors/colors.css');
 @import url('./reset/base.css');
-@import url('./reset/style.css');
 @import url('./header/header.css');
 @import url('./main/main.css');
 @import url('./footer/footer.css');
-@import url('./back/style.css');

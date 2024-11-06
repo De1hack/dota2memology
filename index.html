@@ -1,118 +1,238 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DOTA 2</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/all-styles.css" />
   </head>
   <body>
-    <div class="container">
-    <!-- Навигация -->
-    <header class="header">
-        <nav class="navbar">
-        
-            <a href="#home">Главная</a>
-            <a href="#news">Новости</a>
-            <a href="#heroes">Герои</a>
-            <a href="#community">Сообщество</a>
-          </nav>
-        <h1 class="logo">Dota 2</h1>
-    </header>
-    <div class="gif-container">
-        <img src="https://media1.tenor.com/m/R2kUcrn1zDMAAAAd/shadow-fiend.gif" alt="Анимация Dota 2" class="gif">
-        
-    </div>
-    </header>
-
-    <!-- Главный баннер -->
-    <section class="banner" id="home">
-      <div class="banner-content">
-        <h1>Добро пожаловать в мир Dota 2</h1>
-        <p>Эпические битвы и великие герои ждут тебя!</p>
-      </div>
-    </section>
-
-    <!-- Новости -->
-    <section class="news-section" id="news">
-      <h2>Последние новости</h2>
-      <div class="news-container">
-        <article class="news-item">
-          <img src="https://vkplay.ru/hotbox/showcase/game/picture/de863d3e-23c0-4c07-a120-fc808dbee21b.jpg" alt="Новость 1" />
-          <h3>Обновление игры 7.32</h3>
-          <p>Подробности нового обновления с изменениями в балансе.</p>
-        </article>
-        <article class="news-item">
-          <img src="https://esports.ru/wp-content/uploads/2024/08/3glaxrm8sy-1-1.jpg" alt="Новость 2" />
-          <h3>Турнир The International</h3>
-          <p>Узнайте больше о главном турнире года!</p>
-        </article>
-      </div>
-    </section>
-
-    <!-- Секция героев -->
-    <section class="heroes-section" id="heroes">
-      <h2>Герои</h2>
-      <div class="heroes-container">
-        <div class="hero-card" href="./Invoker.html">
-          <img src="https://media1.tenor.com/m/vFxyXUSYJFoAAAAd/invoker-dota-2.gif" alt="Герой 1" />
-           <h3><a href="Invoker.html"></a>Invoker</h3>
+    <div class="wrapper">
+      <header>
+        <div class="header__block">
+          <div class="header__content container">
+            <a href="#" class="logo-h link-drop"
+              ><img
+                class="logo-h__img img"
+                src="https://1000logos.net/wp-content/uploads/2019/03/Dota-2-Logo-500x281.png"
+                alt="Logo"
+            /></a>
+            <ul class="nav__list list-drop">
+              <li class="nav__list--item">
+                <a class="nav__link link-drop" href="./pages/page1.html"
+                  >PAGE 1</a
+                >
+              </li>
+              <li class="nav__list--item">
+                <a class="nav__link link-drop" href="">PAGE 2</a>
+              </li>
+              <li class="nav__list--item">
+                <a class="nav__link link-drop" href="">PAGE 3</a>
+              </li>
+              <li class="nav__list--item">
+                <a class="nav__link link-drop" href="">PAGE 4</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="hero-card">
-          <img src="https://media1.tenor.com/m/mzCgdRqxu6IAAAAC/%D0%B8%D0%BA%D0%BE%D0%BD%D0%BA%D0%B0-%D0%BF%D1%83%D0%B4%D0%B6%D0%B0-%D0%BF%D1%83%D0%B4%D0%B6.gif" alt="Герой 2" />
-          <h3>Pudge</h3>
-        </div>
-      </div>
-    </section>
+      </header>
 
-    <footer class="footer">
-      <div class="hero">
-        <div class="hero__content container">
-          <img
-            src="https://media1.tenor.com/m/R2kUcrn1zDMAAAAd/shadow-fiend.gif"
-            alt="Анимация Dota 2"
-            class="gif"
-            id="shadow"
-          />
-          <a class="gif" href="#shadow">HUI</a>
-        </div>
-      </div>
-       <!-- Новости -->
-  <section class="news-section" id="news">
-    <h2>Последние новости</h2>
-    <div class="news-container">
-      <article class="news-item">
-        <img src="https://vkplay.ru/hotbox/showcase/game/picture/de863d3e-23c0-4c07-a120-fc808dbee21b.jpg" alt="Новость 1" />
-        <h3>Обновление игры 7.32</h3>
-        <p>Подробности нового обновления с изменениями в балансе.</p>
-      </article>
-      <article class="news-item">
-        <img src="https://esports.ru/wp-content/uploads/2024/08/3glaxrm8sy-1-1.jpg" alt="Новость 2" />
-        <h3>Турнир The International</h3>
-        <p>Узнайте больше о главном турнире года!</p>
-      </article>
+      <main>
+        <section class="hero section">
+          <div class="hero__content container">
+            <div class="hero-card">
+              <img
+                class="hero-card__img"
+                src="https://media1.tenor.com/m/R2kUcrn1zDMAAAAd/shadow-fiend.gif"
+                alt="Sf dancing"
+              />
+              <h1 class="hero__title">Добро пожаловать на наш сайт</h1>
+            </div>
+          </div>
+        </section>
+        <section class="news section">
+          <div class="news__content container">
+            <div class="news-title-box">
+              <h2 class="news__title">Последние новости</h2>
+              <div class="news-primary-card">
+                <img
+                  class="news__bg-img"
+                  src="https://esports.ru/wp-content/uploads/2024/08/3glaxrm8sy-1-1.jpg"
+                  alt="news-bg"
+                />
+                <h3 class="news-primacy-card__title">
+                  Турнир The International
+                </h3>
+                <p class="news-primacy-card__parag">
+                  Узнайте больше о главном турнире года!
+                </p>
+              </div>
+            </div>
+
+            <ul class="m-news__list list-drop">
+              <li class="m-news__list--item">
+                <a class="m-news__list-link link-drop" href="#"
+                  ><div class="m-news__card">
+                    <div class="m-news__card--img-box">
+                      <img
+                        class="m-news__card--img"
+                        src="https://1000logos.net/wp-content/uploads/2019/03/Dota-2-emblem-500x281.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="m-news__card--content">
+                      <h4 class="m-news__card--title">Обновление игры 7.32</h4>
+                      <p class="m-news__card--parag">
+                        Подробности нового обновления с изменениями в балансе.
+                      </p>
+                    </div>
+                  </div></a
+                >
+              </li>
+              <li class="m-news__list--item">
+                <a class="m-news__list-link link-drop" href="#"
+                  ><div class="m-news__card">
+                    <div class="m-news__card--img-box">
+                      <img
+                        class="m-news__card--img"
+                        src="https://1000logos.net/wp-content/uploads/2019/03/Dota-2-emblem-500x281.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="m-news__card--content">
+                      <h4 class="m-news__card--title">Обновление игры 7.32</h4>
+                      <p class="m-news__card--parag">
+                        Подробности нового обновления с изменениями в балансе.
+                      </p>
+                    </div>
+                  </div></a
+                >
+              </li>
+              <li class="m-news__list--item">
+                <a class="m-news__list-link link-drop" href="#"
+                  ><div class="m-news__card">
+                    <div class="m-news__card--img-box">
+                      <img
+                        class="m-news__card--img"
+                        src="https://1000logos.net/wp-content/uploads/2019/03/Dota-2-emblem-500x281.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="m-news__card--content">
+                      <h4 class="m-news__card--title">Обновление игры 7.32</h4>
+                      <p class="m-news__card--parag">
+                        Подробности нового обновления с изменениями в балансе.
+                      </p>
+                    </div>
+                  </div></a
+                >
+              </li>
+              <li class="m-news__list--item">
+                <a class="m-news__list-link link-drop" href="#"
+                  ><div class="m-news__card">
+                    <div class="m-news__card--img-box">
+                      <img
+                        class="m-news__card--img"
+                        src="https://1000logos.net/wp-content/uploads/2019/03/Dota-2-emblem-500x281.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="m-news__card--content">
+                      <h4 class="m-news__card--title">Обновление игры 7.32</h4>
+                      <p class="m-news__card--parag">
+                        Подробности нового обновления с изменениями в балансе.
+                      </p>
+                    </div>
+                  </div></a
+                >
+              </li>
+              <li class="m-news__list--item">
+                <a class="m-news__list-link link-drop" href="#"
+                  ><div class="m-news__card">
+                    <div class="m-news__card--img-box">
+                      <img
+                        class="m-news__card--img"
+                        src="https://1000logos.net/wp-content/uploads/2019/03/Dota-2-emblem-500x281.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="m-news__card--content">
+                      <h4 class="m-news__card--title">Обновление игры 7.32</h4>
+                      <p class="m-news__card--parag">
+                        Подробности нового обновления с изменениями в балансе.
+                      </p>
+                    </div>
+                  </div></a
+                >
+              </li>
+              <li class="m-news__list--item">
+                <a class="m-news__list-link link-drop" href="#"
+                  ><div class="m-news__card">
+                    <div class="m-news__card--img-box">
+                      <img
+                        class="m-news__card--img"
+                        src="https://1000logos.net/wp-content/uploads/2019/03/Dota-2-emblem-500x281.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="m-news__card--content">
+                      <h4 class="m-news__card--title">Обновление игры 7.32</h4>
+                      <p class="m-news__card--parag">
+                        Подробности нового обновления с изменениями в балансе.
+                      </p>
+                    </div>
+                  </div></a
+                >
+              </li>
+              <li class="m-news__list--item">
+                <a class="m-news__list-link link-drop" href="#"
+                  ><div class="m-news__card">
+                    <div class="m-news__card--img-box">
+                      <img
+                        class="m-news__card--img"
+                        src="https://1000logos.net/wp-content/uploads/2019/03/Dota-2-emblem-500x281.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="m-news__card--content">
+                      <h4 class="m-news__card--title">Обновление игры 7.32</h4>
+                      <p class="m-news__card--parag">
+                        Подробности нового обновления с изменениями в балансе.
+                      </p>
+                    </div>
+                  </div></a
+                >
+              </li>
+              <li class="m-news__list--item">
+                <a class="m-news__list-link link-drop" href="#"
+                  ><div class="m-news__card">
+                    <div class="m-news__card--img-box">
+                      <img
+                        class="m-news__card--img"
+                        src="https://1000logos.net/wp-content/uploads/2019/03/Dota-2-emblem-500x281.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="m-news__card--content">
+                      <h4 class="m-news__card--title">Обновление игры 7.32</h4>
+                      <p class="m-news__card--parag">
+                        Подробности нового обновления с изменениями в балансе.
+                      </p>
+                    </div>
+                  </div></a
+                >
+              </li>
+            </ul>
+          </div>
+        </section>
+      </main>
+      <footer></footer>
     </div>
-  </section>
-
-  <!-- Секция героев -->
-  <section class="heroes-section" id="heroes">
-    <h2>Герои</h2>
-    <div class="heroes-container">
-      <div class="hero-card" href="./Invoker.html">
-        <img src="https://media1.tenor.com/m/vFxyXUSYJFoAAAAd/invoker-dota-2.gif" alt="Герой 1" />
-         <h3><a href="Invoker.html"></a>Invoker</h3>
-      </div>
-      <div class="hero-card">
-        <img src="https://media1.tenor.com/m/mzCgdRqxu6IAAAAC/%D0%B8%D0%BA%D0%BE%D0%BD%D0%BA%D0%B0-%D0%BF%D1%83%D0%B4%D0%B6%D0%B0-%D0%BF%D1%83%D0%B4%D0%B6.gif" alt="Герой 2" />
-        <h3>Pudge</h3>
-      </div>
-    </div>
-  </section>
-
-
-      <p>&copy; 2024 Dota 2. Все права защищены.</p>
-    </footer>
-
-    <script src="java.js"></script>
   </body>
 </html>

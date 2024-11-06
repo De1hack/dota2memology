@@ -1,0 +1,16 @@
+img {
+  display: block;
+  object-fit: cover;
+}
+.list-drop {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.link-drop {
+  display: block;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.2s ease;
+}

@@ -1,7 +1,70 @@
 main {
+  background: var(--col5);
   flex: 1;
 }
-.piska {
-  display: block;
-  margin-top: 1400px;
+.hero {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.hero-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero__title {
+  font-size: 44px;
+}
+.hero-card__img {
+  width: 920px;
+  height: 480px;
+  border-radius: 4px;
+}
+.news-title-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.news__title {
+  font-size: 36px;
+}
+.news__bg-img {
+  width: 720px;
+  height: 420px;
+  border-radius: 4px;
+}
+.news-primary-card {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.news-primacy-card__title {
+  font-size: 28px;
+}
+.news-primacy-card__parag {
+  margin: 0;
+}
+.m-news__list {
+  margin-top: 36px;
+  display: grid;
+  gap: 24px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+.m-news__list-link {
+  border-radius: 4px;
+  background: #263226;
+  overflow: hidden;
+}
+.m-news__list-link:hover {
+  filter: drop-shadow(2px 4px 6px black);
+}
+.m-news__card--content {
+  padding: 14px;
+}
+.m-news__card--img {
+  width: 100%;
+  height: 180px;
 }

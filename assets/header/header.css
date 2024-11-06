@@ -1,4 +1,27 @@
 .header__block {
-  background: var(--main-color);
-  width: 100%;
+  background: var(--col4);
+}
+
+.logo-h {
+  /* width: 64px;
+  height: 64px; */
+}
+.logo-h__img {
+  width: 64px;
+  height: 64px;
+  display: block;
+}
+.header__content {
+  display: flex;
+  padding: 6px 0;
+  align-items: center;
+}
+.nav__list {
+  display: flex;
+  gap: 12px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav__link:hover {
+  text-decoration: underline;
 }
