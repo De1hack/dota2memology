@@ -1,55 +1,118 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dota 2</title>
-    <link rel="stylesheet" href="./assets/all-styles.css" />
+    <title>DOTA 2</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="wrapper">
-      <header class="header">
-        <div class="header__block">
-          <div class="header__content container">
-            <nav class="nav">
-              <a href="./"><img class="logo-h" src="" alt="" /></a>
-              <ul class="nav__list">
-                <li class="nav__list--item">
-                  <a href="#">Main</a>
-                </li>
-                <li class="nav__list--item">
-                  <a href="#">News</a>
-                </li>
-                <li class="nav__list--item">
-                  <a href="#">Page3</a>
-                </li>
-                <li class="nav__list--item">
-                  <a href="#">Page4</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-        </div>
-      </header>
-      <main>
-        <div class="hero">
-          <div class="hero__content container">
-            <img
-              src="https://media1.tenor.com/m/R2kUcrn1zDMAAAAd/shadow-fiend.gif"
-              alt="Анимация Dota 2"
-              class="gif"
-              id="shadow"
-            />
-            <a class="piska" href="#shadow">HUI</a>
-          </div>
-        </div>
-      </main>
-      <footer>
-        <div class="footer__block">
-          <p class="footer-copyright">&copy; Dota 2 все права защищені</p>
-        </div>
-      </footer>
+    <div class="container">
+    <!-- Навигация -->
+    <header class="header">
+        <nav class="navbar">
+        
+            <a href="#home">Главная</a>
+            <a href="#news">Новости</a>
+            <a href="#heroes">Герои</a>
+            <a href="#community">Сообщество</a>
+          </nav>
+        <h1 class="logo">Dota 2</h1>
+    </header>
+    <div class="gif-container">
+        <img src="https://media1.tenor.com/m/R2kUcrn1zDMAAAAd/shadow-fiend.gif" alt="Анимация Dota 2" class="gif">
+        
     </div>
-    <script src="./java.js"></script>
+    </header>
+
+    <!-- Главный баннер -->
+    <section class="banner" id="home">
+      <div class="banner-content">
+        <h1>Добро пожаловать в мир Dota 2</h1>
+        <p>Эпические битвы и великие герои ждут тебя!</p>
+      </div>
+    </section>
+
+    <!-- Новости -->
+    <section class="news-section" id="news">
+      <h2>Последние новости</h2>
+      <div class="news-container">
+        <article class="news-item">
+          <img src="https://vkplay.ru/hotbox/showcase/game/picture/de863d3e-23c0-4c07-a120-fc808dbee21b.jpg" alt="Новость 1" />
+          <h3>Обновление игры 7.32</h3>
+          <p>Подробности нового обновления с изменениями в балансе.</p>
+        </article>
+        <article class="news-item">
+          <img src="https://esports.ru/wp-content/uploads/2024/08/3glaxrm8sy-1-1.jpg" alt="Новость 2" />
+          <h3>Турнир The International</h3>
+          <p>Узнайте больше о главном турнире года!</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Секция героев -->
+    <section class="heroes-section" id="heroes">
+      <h2>Герои</h2>
+      <div class="heroes-container">
+        <div class="hero-card" href="./Invoker.html">
+          <img src="https://media1.tenor.com/m/vFxyXUSYJFoAAAAd/invoker-dota-2.gif" alt="Герой 1" />
+           <h3><a href="Invoker.html"></a>Invoker</h3>
+        </div>
+        <div class="hero-card">
+          <img src="https://media1.tenor.com/m/mzCgdRqxu6IAAAAC/%D0%B8%D0%BA%D0%BE%D0%BD%D0%BA%D0%B0-%D0%BF%D1%83%D0%B4%D0%B6%D0%B0-%D0%BF%D1%83%D0%B4%D0%B6.gif" alt="Герой 2" />
+          <h3>Pudge</h3>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="hero">
+        <div class="hero__content container">
+          <img
+            src="https://media1.tenor.com/m/R2kUcrn1zDMAAAAd/shadow-fiend.gif"
+            alt="Анимация Dota 2"
+            class="gif"
+            id="shadow"
+          />
+          <a class="gif" href="#shadow">HUI</a>
+        </div>
+      </div>
+       <!-- Новости -->
+  <section class="news-section" id="news">
+    <h2>Последние новости</h2>
+    <div class="news-container">
+      <article class="news-item">
+        <img src="https://vkplay.ru/hotbox/showcase/game/picture/de863d3e-23c0-4c07-a120-fc808dbee21b.jpg" alt="Новость 1" />
+        <h3>Обновление игры 7.32</h3>
+        <p>Подробности нового обновления с изменениями в балансе.</p>
+      </article>
+      <article class="news-item">
+        <img src="https://esports.ru/wp-content/uploads/2024/08/3glaxrm8sy-1-1.jpg" alt="Новость 2" />
+        <h3>Турнир The International</h3>
+        <p>Узнайте больше о главном турнире года!</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Секция героев -->
+  <section class="heroes-section" id="heroes">
+    <h2>Герои</h2>
+    <div class="heroes-container">
+      <div class="hero-card" href="./Invoker.html">
+        <img src="https://media1.tenor.com/m/vFxyXUSYJFoAAAAd/invoker-dota-2.gif" alt="Герой 1" />
+         <h3><a href="Invoker.html"></a>Invoker</h3>
+      </div>
+      <div class="hero-card">
+        <img src="https://media1.tenor.com/m/mzCgdRqxu6IAAAAC/%D0%B8%D0%BA%D0%BE%D0%BD%D0%BA%D0%B0-%D0%BF%D1%83%D0%B4%D0%B6%D0%B0-%D0%BF%D1%83%D0%B4%D0%B6.gif" alt="Герой 2" />
+        <h3>Pudge</h3>
+      </div>
+    </div>
+  </section>
+
+
+      <p>&copy; 2024 Dota 2. Все права защищены.</p>
+    </footer>
+
+    <script src="java.js"></script>
   </body>
 </html>
